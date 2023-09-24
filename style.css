@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Mooli&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+}
+
+.container {
+    background-color: rgb(48, 46, 46, 0.815);
+    border-radius: 20px;
+    margin: 3rem 5.5rem;
+
+}
+
+.container article {
+    text-align: justify;
+    margin: 8px 5rem;
+}
+
+.container article ul li {
+    line-height: 45px;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6rem;
+}
+
+h1 span {
+    color: red;
+}
+
+img {
+    width: 16em;
+    border-radius: 35px;
+    box-shadow: 6px 2px 150px 46px  rgba(232, 17, 17, 0.6) ;
+    /* box-shadow: 6px 2px 250px 46px rgba(232, 17, 17, 0.69);
+    -webkit-box-shadow: 6px 2px 250px 46px rgba(232, 17, 17, 0.69);
+    -moz-box-shadow: 6px 2px 250px 46px rgba(232, 17, 17, 0.69);
+*/
+} 
+
+.stanlee-img {
+    text-align: center;
+}
+
+.stanlee-img p {
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    color: #Ff0000;
+}
+
+.container footer {
+    text-align: center;
+    padding: 0 3rem;
+    padding-bottom: 0.3rem;
+}
+
+.container footer a {
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container footer a:hover {
+    color: red;
+    background-color: rgb(48, 46, 46, 0.815);
+    cursor: pointer;
+}
